@@ -48,7 +48,7 @@ export const projectsData = [
   {
     title: "Matbakhy",
     description:
-      "I worked as a front-end developer on this  project. Users can Browse or Upload their Kitchens.",
+      "Users can Browse or Upload their Kitchens.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "TypeScript"],
     imageUrl: corpcommentImg,
     link:"https://matbakhy-beta.vercel.app/",
@@ -56,7 +56,7 @@ export const projectsData = [
   {
     title: "Brempatch Dashboard",
     description:
-      "Dashboard for business men to track their Clients,Products,orders and messages .",
+      "I worked as a front-end developer on this  project. businessmen are able to track their Clients,Products,orders and messages .",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Shadcn UI"],
     imageUrl: rmtdevImg,
     link:"https://brempatch-dashboard.vercel.app/",
