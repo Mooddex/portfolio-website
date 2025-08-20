@@ -1,30 +1,60 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# 🌐 My Portfolio Website
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+Welcome to the repository for my personal portfolio website!  
+This project highlights my skills, projects, and experience as a **Front-End Developer** specializing in **React & Next.js**.
 
-## What you will learn
+---
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+## 🧰 Tech Stack
 
-## Important
+* ⚡ **Framework:** Next.js (App Router) + TypeScript  
+* 🎨 **Styling:** Tailwind CSS  
+* ☁️ **Deployment:** Vercel  
+* 🔄 **State Management:** React Hooks & Context API  
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+---
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## ✨ Features
 
-## Setup
+- 📄 Responsive design (mobile-first)  
+- 🖼️ Projects showcase with details  
+- 📬 Contact form (Email/Integration)  
+- 🌙 Light/Dark mode support  
+- ⚡ Optimized for performance & SEO  
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+---
+
+
+## 🛠️ Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Mooddex/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+````
+
+The app will be available at **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me:
+
+* 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+* 🐙 [GitHub](https://github.com/Mooddex)
+* ✉️ Email: [yourname@email.com](mailto:msalama027@email.com)
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
