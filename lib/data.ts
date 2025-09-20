@@ -29,6 +29,10 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+   {
+    name: "Library",
+    hash: "#library",
+  },
 ] as const;
 
 export const experiencesData = [
