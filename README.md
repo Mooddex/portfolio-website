@@ -53,7 +53,7 @@ Feel free to connect with me:
 
 * 💼 [LinkedIn](https://linkedin.com/in/your-profile)
 * 🐙 [GitHub](https://github.com/Mooddex)
-* ✉️ Email: [yourname@email.com](mailto:msalama027@email.com)
+* ✉️ Email: [msalama027@gmail.com](mailto:msalama027@email.com)
 
 ---
 
