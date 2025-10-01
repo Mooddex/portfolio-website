@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import corpcommentImg from "@/public/2025-07-16-000244-create-next-app-screenclip.png";
+import corpcommentImg from "@/2025-07-16-000244-create-next-app-screenclip.png";
 import rmtdevImg from "@/public/screencapture-brempatch-dashboard-vercel-app-2025-08-19-18_06_52.png";
 import wordanalyticsImg from "@/public/2025-07-08-181343-my-office-screenclip.png";
 
@@ -28,10 +28,6 @@ export const links = [
   {
     name: "Contact",
     hash: "#contact",
-  },
-   {
-    name: "Library",
-    hash: "#library",
   },
 ] as const;
 
