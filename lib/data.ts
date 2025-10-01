@@ -65,9 +65,9 @@ export const projectsData = [
     title: "My Office",
     description:
       "A public web app for Lawyers to mange their cases",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Node.js", "TypeScript", "Express"],
+    tags: ["React", "Vite", "MongoDB", "Tailwind", "Node.js", "JavaScript", "Express"],
     imageUrl: wordanalyticsImg,
-    link:"https://github.com/Mooddex/My-Office",
+    link:"https://myoffice316.netlify.app/",
   },
 ] as const;
 
