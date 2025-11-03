@@ -56,6 +56,8 @@ export default function Project({
         rel="noopener noreferrer"
         >
           <Image
+          width={500}
+          height={500}
           src={imageUrl}
           alt="Project I worked on"
           quality={95}

@@ -35,6 +35,19 @@ export const experiencesData = [
  
   {
     title: "Front-End Developer",
+    Company: "DRB" ,
+    type: "Internship",
+    location: "Remote",
+    description:
+      "Contributed to the development and implementation of user friendly tech solutions for several clients in the automotive industry using React, Next.js, and Tailwind CSS.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present ",
+    
+  },
+  {
+    title: "Front-End Developer",
+     Company: "100devs" ,
+     type: "freelance",
     location: "Remote",
     description:
       "At 100devs I worked as a front-end developer , while upskilling my Back-end stack.",
