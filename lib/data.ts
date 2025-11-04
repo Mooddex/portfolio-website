@@ -1,8 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-const corpcommentImg = "/2025-07-16-000244-create-next-app-screenclip.png";
-const rmtdevImg = "/screencapture-brempatch-dashboard-vercel-app-2025-08-19-18_06_52.png";
-const wordanalyticsImg = "/2025-07-08-181343-my-office-screenclip.png";
+const matbakhyImg = "/2025-07-16-000244-create-next-app-screenclip.png";
+const dashboardImage = "/screencapture-brempatch-dashboard-vercel-app-2025-08-19-18_06_52.png";
+const ehgzlyImg = "https://res.cloudinary.com/deq0w5tnr/image/upload/v1756643729/screencapture-ehgzly-mocha-vercel-app-2025-08-31-15_32_54_p6f3az.png"
+const myofficeImg = "/2025-07-08-181343-my-office-screenclip.png";
 
 export const links = [
   {
@@ -63,7 +64,7 @@ export const projectsData = [
     description:
       "Users can Browse or Upload their Kitchens.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "TypeScript"],
-    imageUrl: corpcommentImg,
+    imageUrl: matbakhyImg,
     link:"https://matbakhy-beta.vercel.app/",
   },
   {
@@ -71,15 +72,23 @@ export const projectsData = [
     description:
       "I worked as a front-end developer on this  project. businessmen are able to track their Clients,Products,orders and messages .",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Shadcn UI"],
-    imageUrl: rmtdevImg,
+    imageUrl: dashboardImage,
     link:"https://brempatch-dashboard.vercel.app/",
+  },
+  {
+    title: "Ehgzly",
+    description:
+      "AI powered App A modern event booking platform where users can browse, discover, and book tickets for their favourite events.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind","Sentry","OpenAI","Sonner",],
+    imageUrl: ehgzlyImg,
+    link:"https://ehgzly-mocha.vercel.app/",
   },
   {
     title: "My Office",
     description:
       "A public web app for Lawyers to mange their cases",
     tags: ["React", "Vite", "MongoDB", "Tailwind", "Node.js", "JavaScript", "Express"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: myofficeImg,
     link:"https://myoffice316.netlify.app/",
   },
 ] as const;
