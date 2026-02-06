@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export default function AboutMotionWrapper() {
     return(
-         <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.2 }}
-    >
+        <motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+>
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Law</span>, I decided to pursue my
