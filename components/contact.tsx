@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { memo } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -8,7 +8,7 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
-export default function Contact() {
+const Contact = memo(function Contact() {
   const { ref } = useSectionInView("Contact");
 
   return (
@@ -23,7 +23,7 @@ export default function Contact() {
         opacity: 1,
       }}
       transition={{
-        duration: 1,
+        duration: 0.8,
       }}
       viewport={{
         once: true,
@@ -33,7 +33,7 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline"target="_blank" href="mailto:msalama027@gmail.com">
+        <a className="underline" target="_blank" href="mailto:msalama027@gmail.com">
           msalama027@gmail.com
         </a>{" "}
         or through this form.
@@ -71,4 +71,6 @@ export default function Contact() {
       </form>
     </motion.section>
   );
-}
+});
+
+export default Contact;

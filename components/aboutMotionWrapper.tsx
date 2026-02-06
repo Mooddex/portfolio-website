@@ -1,13 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { memo } from "react";
 
-export default function AboutMotionWrapper() {
+const AboutMotionWrapper = memo(function AboutMotionWrapper() {
     return(
         <motion.div
   initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
+  transition={{ duration: 0.5 }}
 >
       <p className="mb-3">
         After graduating with a degree in{" "}
@@ -38,4 +40,6 @@ export default function AboutMotionWrapper() {
       </p>
     </motion.div>
     )
-}
+});
+
+export default AboutMotionWrapper;

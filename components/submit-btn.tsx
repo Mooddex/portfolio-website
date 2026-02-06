@@ -1,8 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 import { FaPaperPlane } from "react-icons/fa";
 import { useFormStatus } from "react-dom";
 
-export default function SubmitBtn() {
+const SubmitBtn = memo(function SubmitBtn() {
   const { pending } = useFormStatus();
 
   return (
@@ -21,4 +21,6 @@ export default function SubmitBtn() {
       )}
     </button>
   );
-}
+});
+
+export default SubmitBtn;
